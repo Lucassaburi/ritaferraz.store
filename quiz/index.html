@@ -1,24 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<title>Perguntas</title>
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="shortcut icon" href="favicon.jpg">
-<style>
-    header {
-      background:"favicon.jpg";
-      background-repeat: no-repeat;
-    }
-    @font-face {
-      font-family: Gotham Rounded;
-      src: url("font.otf") format("opentype");
-    }
+  <style>
     *, *::before, *::after {
       box-sizing: border-box;
-      font-family: Gotham Rounded;
+      font-family: 'Nunito', sans-serif;
     }
+     
     body {
       padding: 0;
       margin: 0;
@@ -37,11 +31,11 @@
       max-width: 90%;
     }
     .black {
-      background-color: black;
+      background-color: #bfddf3;
       padding: 10px;
       text-align: center;
       border-radius: 20px;
-      box-shadow: 0 0 10px 2px black;
+      box-shadow: 0 0 10px 2px;
     }
     .answer {
       display: grid;
@@ -65,84 +59,72 @@
       color: black;
     }
     .black h1 {
-      color: yellow;
+      color: black;
     }
     .black p {
       font-size: 18px;
-      color: white;
+      color: black;
     }
     .hide {
       display: none;
     }
   </style>
-    
-    <!-- Meta Pixel Code -->
+  
+  
+<!-- Meta Pixel Code -->
 <script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1105554363556410');
-fbq('track', 'AddToCart');
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '362918579258352');
+  fbq('track', 'AddToCart');
 </script>
 <noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1105554363556410&ev=PageView&noscript=1"
+  src="https://www.facebook.com/tr?id=362918579258352&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
-    
+  
+  
 </head>
-<body>
-
-<div class="container">
-<div class="black">
-<div id="primeira">
-<div class="question">
-<h1>Pergunta 1</h1>
-<p>Você já tentou emagrecer?</p>
-</div>
-<div class="answer">
-<button class="btn" onclick="segunda()">SIM</button>
-<button class="btn" onclick="segunda()">NÃO</button>
-</div>
-</div>
-<div id="segunda" class="hide">
-<div class="question">
-<h1>Pergunta 2</h1>
-<p>Você já tentou ir à academia ou fazer dietas?</p>
-</div>
-<div class="answer">
-<button class="btn" onclick="terceira()">SIM</button>
-<button class="btn" onclick="terceira()">NÃO</button>
-</div>
-</div>
-<div id="terceira" class="hide">
-<div class="question">
-<h1>Pergunta 3</h1>
-<p>O vídeo a seguir tem um limite para pouquíssimas pessoas verem ao mesmo tempo... Você pretende ver até o fim?</p>
-</div>
-<div class="answer">
-<button class="btn" onclick="redirect()">SIM</button>
-<button class="btn" onclick="redirect()">NÃO</button>
-</div>
-</div>
-</div>
-<p style="text-align: center; font-weight: bold;">© 2022 – Todos os direitos reservados. Este site não faz parte nem é endossado pelo Facebook. Facebook é uma marca comercial da Facebook, Inc.</p>
-</div>
-<script>
+<body> 
+  <div class="container">
+    <div class="black">
+      <div id="primeira">
+        <div class="question">
+          <h1>Pregunta 1</h1>
+          <p> ¿Quieres perder peso?</p>
+        </div>
+        <div class="answer">
+          <button class="btn" onclick="segunda()">SÍ</button>
+          <button class="btn" onclick="segunda()">NO</button>
+        </div>
+      </div>
+      <div id="segunda" class="hide">
+        <div class="question">
+          <h1>Pregunta 2</h1>
+          <p>¿Ha intentado hacer dieta en el pasado y no funcionó?</p>
+        </div>
+        <div class="answer">
+          <button class="btn" onclick="redirect()">SÍ</button>
+          <button class="btn" onclick="redirect()">NO</button>
+        </div>
+      </div>
+    </div>
+    <p style="text-align: center; font-weight: bold;">© 2022 – Todos los derechos reservados. Este sitio no forma parte ni está respaldado por Facebook. Facebook es una marca comercial de Facebook, Inc.</p>
+    <p style="text-align: center; font-weight: bold;"><a href="https://lucassaburi.com/termos" style="color: black;">Terminos de uso</a> | <a href="https://lucassaburi.com/privacidade" style="color: black;">Política de privacidad</a></p>
+  </div>
+  <script>
     function segunda() {
       document.getElementById("primeira").classList.add("hide")
       document.getElementById("segunda").classList.remove("hide")
     }
-    function terceira() {
-      document.getElementById("segunda").classList.add("hide")
-      document.getElementById("terceira").classList.remove("hide")
-    }
     function redirect() {
-      location.href = "http://protocolosecagordura.online"
+      location.href = "https://lucassaburi.com/" // SEU LINK AQUI
     }
   </script>
 </body>

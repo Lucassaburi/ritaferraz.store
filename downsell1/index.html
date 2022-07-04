@@ -1,124 +1,117 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald&display=swap">
-<link rel="stylesheet" href="timer.css">
-<script src="https://kit.fontawesome.com/0572283b45.js"></script>
-<style>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Downsell 1</title>
+    <style type="text/css">
       body {
-        background-image: url("fundo.jpeg");
-        background-color: rgba(255, 255, 255, .9);
-        background-attachment: fixed;
+        background-image: url("bg.jpeg");
+        background-color: rgba(255, 255, 255, 0.8);
         background-position: center;
-        background-repeat: no-repeat;
         background-size: cover;
+        background-attachment: fixed;
         background-blend-mode: lighten;
+        font-family: 'Montserrat', sans-serif;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 50px;
       }
       .lead {
-        font-size: 1.4rem;
+        font-weight: 500;
+        margin-bottom: 50px;
+        font-size: 1.5rem;
       }
-      .fonte1 {
-        font-size: 1.75rem;
+      #cta {
+        margin-bottom: 50px;
       }
-      .fonte2 {
-        font-size: 1.50rem;
+      .btn {
+        font-size: 1.7rem;
+        font-family: 'Oswald', sans-serif;
+        white-space: normal;
+        margin-bottom: 50px;  
       }
       .under {
         text-decoration: underline;
       }
-      .strike {
-        text-decoration: line-through;
+      .price {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #198754;
       }
     </style>
-</head>
-<body>
-<nav class="navbar bg-red justify-content-center text-center pt-3" style="background-color: #BF0A0A;">
-<h6 style="font-weight: bold; color: white;">
-<i class="fas fa-exclamation-triangle mr-2"></i>
-Não clique em voltar, isso pode causar erros ao seu pedido! Continua abaixo! 👇
-</h6>
-</nav>
-<div class="container py-5">
-<div class="row justify-content-center">
-<div class="col-lg-8">
-<h1 style="text-align: center; font-weight: bold;">ESPERE!</h1>
-<br>
-<h2 class="font-weight-bold text-center">Eu Não Quero Que Você Perca Isso!
-<br><span style="color:#BF0A0A;">Aqui Está O Menor Preço Que Você Terá!</span>
-</h2>
-<br>
-<p class="lead font-weight-bold text-center">Você está recebendo um desconto imediato de 50% no Sistema Zero Flacidez, Apenas Hoje!
-</p>
-<br>
-<p class="lead">Ok, talvez R$147 ainda seja um pouco alto.</p>
-<br>
-<p class="lead">É por isso que eu quero tornar sua decisão ainda mais fácil…</p>
-<br>
-<p class="lead">Porque eu quero que você consiga os resultados que você merece!</p>
-<br>
-<p class="lead">Pela última vez, eu vou reduzir o preço do protocolo para apenas R$67.</p>
-<br>
-<p class="lead font-weight-bold">Porque estou fazendo isso? </p>
-<br>
-<p class="lead">Porque eu já passei por isso, e sei como uma autoestima baixa por conta do <b>aspecto da pele</b> após emagrecer pode acabar com nossa <u>saúde mental</u>.</p>
-<br>
-<p class="lead">
-O objetivo é emagrecer, e <span style='color:#BF0A0A; font-weight: bold;'>eliminar</span> tudo e qualquer ponto que pode prejudicar sua saúde, e sua autoestima. </p>
-<br>
-<p class="lead">
-É por isso que estou te oferecendo essa incrível oportunidade. </p>
-<br>
-<p class="lead">
-É isso que você precisa fazer…
-</p>
-<br>
-<p class="lead">
-Clique no botão "Adicionar ao Meu Pedido"... </p>
-<br>
-<div style="text-align:center">
-          <button id="kiwify-upsell-trigger-rBlPDeC" style="background-color:#2ECC70;padding:12px 16px;cursor:pointer;color:#FFFFFF;font-weight:600;border-radius:4px;border:1px solid #2ECC70;font-size:20px;">Sim, Adicione Isso Ao Meu Pedido</button>
-          <div id="kiwify-upsell-cancel-trigger" style="margin-top:1rem;cursor:pointer;font-size:16px;text-decoration:underline;font-family:sans-serif;">Não, compreendo que nunca mais verei essa oferta novamente.</div>
-        </div><script> 
-            let nextUpsellURL = "https://lucassaburi.com/upsell2";
-            let nextDownsellURL = "https://lucassaburi.com/upsell2";</script><script src="https://kiwify-snippets.netlify.app/upsell/upsell.min.js"></script>
-<br>
-<p class="lead">
-E comece agora mesmo a acabar com a pele flácida e caída.</p>
-<br>
-<p class="lead">
-Mais uma vez… </p>
-<br>
-<br>
-<p class="lead">
-Essa é uma <span style="font-weight: bold;">oferta única</span> , e você não verá ela novamente </p>
-<br>
-<p class="lead">
-<span style="font-weight: bold;">Clique agora </span> no botão e adicione esse protocolo ao seu pedido. </p>
-<br>
-<div style="text-align:center">
-          <button id="kiwify-upsell-trigger-rBlPDeC" style="background-color:#2ECC70;padding:12px 16px;cursor:pointer;color:#FFFFFF;font-weight:600;border-radius:4px;border:1px solid #2ECC70;font-size:20px;">Sim, Adicione Isso Ao Meu Pedido</button>
-          <div id="kiwify-upsell-cancel-trigger" style="margin-top:1rem;cursor:pointer;font-size:16px;text-decoration:underline;font-family:sans-serif;">Não, compreendo que nunca mais verei essa oferta novamente.</div>
-        </div><script> 
-            let nextUpsellURL = "https://lucassaburi.com/upsell2";
-            let nextDownsellURL = "https://lucassaburi.com/upsell2";</script><script src="https://kiwify-snippets.netlify.app/upsell/upsell.min.js"></script>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<footer class="flex-shrink-0 py-4 bg-dark text-white">
-<div class="container text-center">
-<a class="text-white" href="#">Termos de Uso</a> | <a class="text-white" href="#">Política de Privacidade</a>
-</div>
-</footer>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-<script src="timer.js"></script>
-</body>
+  </head>
+  <body>
+    <nav class="navbar text-white font-weight-bold bg-danger justify-content-center text-center">
+      <span>Não feche ou atualize essa página, pode causar erros em seu pedido! Leia a mensagem abaixo:</span>
+    </nav>
+    <div class="container py-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h1 class="text-danger font-weight-bold">¡ESPERE! Una última palabra...</h1>
+          <h3><u>OK entendí. Tal vez pensó que $37 era demasiado</u></h3>
+          <h3 class="text-danger font-weight-bold">OK entendí. Tal vez pensó que $37 era demasiado.</h3>
+          <p class="lead">No quiero que desperdicie esta oportunidad. ¡Aquí está el precio más bajo que obtendrá!</p>
+          <p class="lead">Obtiene un 50% de descuento inmediato</p>
+          <p class="lead"> Y además, si acepta este brutal descuento, ¡recibirá UN programa MÁS, totalmente gratis!</p>
+          <p class="lead">Es por eso que quiero que esta sea la decisión más fácil que jamás haya tomado... hasta el punto en que se sienta como una idiota por dejarla pasar.</p>
+          <p class="lead">¿Y cómo voy a hacer eso?</p>
+          <p class="lead">De esta manera...</p>
+          <p class="lead">Por más loco que parezca, voy a agregar un programa más dentro de su pedido que por sí solo vale más de $ 117... ¡GRATIS!</p>
+          <p class="lead">Pero tiene que aceptar esa oferta ahora mismo.</p>
+          <p class="lead">Este nuevo programa que recibirá gratis al aceptar esta oferta se llama…</p>
+          <p class="lead">¡Estrias Nunca Más!</p>
+          <p class="lead">Y dentro de esta guía única Descubrirá..</p>
+          <p class="lead">Cómo usar ingredientes comunes (como papas y azúcar) que ayudan a combatir las estrías más rápido.</p>
+          <p class="lead">esto es lo que encontrará:</p>
+          <p class="lead">● ¿Cuáles son los famosos “retinoides” (usados en muchos cosméticos importados) que hacen que la piel se vea más suave y joven!
+          <p class="lead"> ● Un exfoliante casero para “lijar suavemete” sus estrías mientras se duchas… ¡haciéndolas desaparecer!</p>
+          <p class="lead">● ¡Porque este "suavizante natural de la piel" puede ayudar a "borrar" las estrías de la piel! ¡</p>
+          <p class="lead">● Una técnica para "estimular el colágeno" para dejar la piel como nueva (comúnmente utilizada en estética en estos días)!</p>
+          <p class="lead">● Un increíble "Aceite natural" que ayuda curar las cicatrices causadas por las estrías en un abrir y cerrar de ojos!</p>
+          <p class="lead">Asombroso, ¿verdad?</p>
+          <p class="lead">Aquí está el trato:</p>
+          <p class="lead">Normalmente, este plan se vende por separado por R$ 117...</p>
+          <p class="lead">Pero hoy, sólo a través de esta página...</p>
+          <p class="lead">Podrá incluir esta guía con su pedido...</p>
+          <p class="lead font-weight-bold">GRATIS</p>
+          <p class="lead"> Esto es lo que obtendrá hoy...</p>
+          <p class="lead">- Plan de comidas de 30 días del Dr. John...</p><p class="lead"> (valorado en $ 117)  - Estrías nunca más (valorado en $ 57)</p>
+          <p class="lead"><s>De: $ 174</s></p>
+          <p class="lead font-weight-bold">Desde: $ 18.50</p>
+          <div id="cta">
+
+            <!-- CÓDIGO DA KIWIFY -->
+            
+            
+            <!-- CÓDIGO DA KIWIFY -->
+
+       <!-- HOTMART - Upsell Widget -->
+      <!-- HOTMART - Upsell Widget -->
+<div id="box_hotmart"></div>
+<script src="https://pay.hotmart.com/assets/js/hotmart.upsell_checkout.js"></script>
+
+<script>
+opts = {
+key: 'USL-74819-205231-8bb11e9f73a5ed8652fa450d8d091872',
+width: '650' ,
+height: '420'
+};
+Upsell.Widget.show(opts);
+</script>
+<!-- HOTMART - Upsell Widget [end] -->
+
+<!-- HOTMART - Upsell Widget [end] -->
+
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
 </html>
